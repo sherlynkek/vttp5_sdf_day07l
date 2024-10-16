@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #000000;
-    color: rgb(255, 255, 255); /* Set the text color to white for better contrast */
+    color: white; /* Set the text color to white for better contrast */
 }
 .container {
     display: flex;
@@ -18,8 +18,8 @@ body {
     text-align: center;
 }
 .photo img {
-    width: 150%;
-    border-radius: 20px;
+    width: 100%;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Light shadow for contrast */
 }
 .about {
